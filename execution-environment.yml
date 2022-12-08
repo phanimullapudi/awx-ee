@@ -6,6 +6,6 @@ dependencies:
 
 additional_build_steps:
   prepend: |
-    RUN pip3 install --ugprade pip setuptools
+    RUN pip3 install --upgrade pip setuptools
   append:
     - RUN ls -al /
